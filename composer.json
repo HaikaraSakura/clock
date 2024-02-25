@@ -1,0 +1,17 @@
+{
+    "name": "haikara/clock",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Haikara\\Clock\\": "src/"
+        }
+    },
+    "require": {
+        "psr/clock": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "psr/http-message": "^2.0",
+        "laminas/laminas-diactoros": "^3.3"
+    }
+}
